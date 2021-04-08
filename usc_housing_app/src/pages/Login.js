@@ -1,12 +1,12 @@
 import '../styles/Login.css';
-import Top from "../components/all/Top";
-import Window from "../components/login/Window"
+//import Top from "../components/all/Top";
+import LoginPage from "../components/login/LoginPage"
 
 function Login() {
     return (
         <div style={{ justifyContent: "center" }}>
-            <Top title="Login"></Top>
-            <Window></Window>
+            {/* <Top title="Login"></Top> */}
+            <LoginPage></LoginPage>
         </div>
     );
 }
